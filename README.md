@@ -10,7 +10,7 @@ Provide Analysis Approach to implement suggestions like:
 
 The intent of the company is to :
 1. Reduce/aviod the CREDIT LOSS to the COMPANY by tracing out the defaulters/charged-off applicants.
-2. Do not loose right candidate who are capable of return back the loan amount.
+2. Reduce Finalcial Loss: Do not loose right candidate who are capable of return back the loan amount.
 
 
 ## Table of Contents
@@ -21,24 +21,24 @@ The intent of the company is to :
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-Understanding the data sourcing .
-Data Cleaning: unwanted columns are going to be removed.
-
-1. years exp doesnt consider under chargedoff:
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- LC Suman&Pruthvi Project details about how a consumer finance company analyse the historic data .
+  Comes up with a pattern on analysing driving factors for applicants becoming defaulters.
+- Reducing credit loss and Finance loss to the company.
+- Data set used is provided by LENDING CLUB.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Based on the above HISTOGRAM plot its evident that the number of "charged-off" applicants increases with "revol_util" % increment.
+- The LOAN amount and the INTEREST rates given to NONE category applicants are less on an average, compared with other category applicants.
+- When performing deep dive into the data to see NONE applicants . It observed that there are only THREE applicants part of that category.
+Instead of considering this type , its better to ignore as an OUTLIER's category.
+- Analysis gave information about how the purpose of loan is influencing the number of charged-off applicants.
+- the probability of charged-off applicants is increasing along with the raise in DTI ratio.
+- Observed that the LOAN amount is raising every year and charged-off and fully paid also raising equivalent. Charged off applicants are close to 1/4th of the fully paid applicants during 2011.Which is HIGH compared to other years.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -53,14 +53,15 @@ Data Cleaning: unwanted columns are going to be removed.
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
+- This project was UPGRAD CASE STUDY..
 - References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on German Credit data [this tutorial](https://www.dropbox.com/scl/fo/yd4atqm3xmz8yid28ncgo/h?dl=0&rlkey=dur0x2cmtktygqssmuyeqrz9z).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
+Created by [https://github.com/sumanes4u] 
+           [https://github.com/pruthvipheonix/]
+- feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->
