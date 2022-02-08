@@ -1,5 +1,16 @@
-# Project Name
-> Outline a brief description of your project.
+# Loan RISK Analysis 
+> Suman Samarthi & Pruthvi HN consumer finance company
+Here we take loan applicaiton's for all type of loans. 
+Analysis the RISK driving factor and provide details about who can go as defaulters based on DRIVER variables or factors.
+
+Provide Analysis Approach to implement suggestions like:
+- Reducing loan amount
+- Increase Interest rates
+- Deny loan totally
+
+The intent of the company is to :
+1. Reduce/aviod the CREDIT LOSS to the COMPANY by tracing out the defaulters/charged-off applicants.
+2. Do not loose right candidate who are capable of return back the loan amount.
 
 
 ## Table of Contents
@@ -9,6 +20,11 @@
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
+
+Understanding the data sourcing .
+Data Cleaning: unwanted columns are going to be removed.
+
+1. years exp doesnt consider under chargedoff:
 
 ## General Information
 - Provide general information about your project here.
@@ -28,9 +44,10 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy :(For scientific mathematics)
+- pandas : (Univeriate biveriate analysis)
+- matplotlib: (For visualization using plots and graphs part of analysis)
+- seaborn: (For even detailed visualization part of analysis)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
